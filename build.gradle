@@ -11,8 +11,8 @@ repositories {
 }
 
 dependencies {
-    // 1.26.2を指定！
-    compileOnly 'io.papermc.paper:paper-api:1.26.2-R0.1-SNAPSHOT'
+    // 確実にビルドを通すための裏技！
+    compileOnly 'io.papermc.paper:paper-api:1.20.4-R0.1-SNAPSHOT'
 }
 
 java {
