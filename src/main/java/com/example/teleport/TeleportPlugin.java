@@ -6,7 +6,7 @@ public final class TeleportPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info("TeleportPluginが有効化されました！");
+        getLogger().info("TeleportPlugin (v26.2) が有効化されました！");
     }
 
     @Override
