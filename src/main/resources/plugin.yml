@@ -1,50 +1,33 @@
 name: TeleportPlugin
 version: 1.0
 main: com.example.teleport.TeleportPlugin
-api-version: '1.20'
+api-version: 1.20 # 自分が使ってるバージョンに合わせてね (例: 1.19, 1.21 など)
 commands:
   sethome:
-    description: ホーム登録
-    usage: /sethome [名前]
+    description: ホームポイントを設定するよ
   home:
-    description: ホームテレポート
-    usage: /home [名前]
+    description: ホームポイントにテレポートするよ
   delhome:
-    description: ホーム削除
-    usage: /delhome [名前]
+    description: ホームポイントを削除するよ
   rtp:
-    description: ランダムテレポート (GUI)
-    usage: /rtp
-  pvp:
-    description: PvPのON/OFF切り替え
-    usage: /pvp
+    description: ランダムテレポートのGUIを開くよ
   tpa:
-    description: TP申請
-    usage: /tpa <プレイヤー名>
+    description: 相手のところへテレポートする申請を送るよ
   tp:
-    description: TP申請
-    usage: /tp <プレイヤー名>
+    description: 相手のところへテレポートする申請を送るよ
   teleport:
-    description: TP申請
-    usage: /teleport <プレイヤー名>
+    description: 相手のところへテレポートする申請を送るよ
   tpahere:
-    description: プレイヤーを呼ぶ申請
-    usage: /tpahere <プレイヤー名>
+    description: 相手を自分のところへ呼ぶ申請を送るよ
   teleporthere:
-    description: プレイヤーを呼ぶ申請
-    usage: /teleporthere <プレイヤー名>
+    description: 相手を自分のところへ呼ぶ申請を送るよ
   tpaccept:
-    description: 申請を承認
-    usage: /tpaccept
+    description: テレポート申請を受け入れるよ
   tpdeny:
-    description: 申請を拒否
-    usage: /tpdeny
+    description: テレポート申請を拒否するよ
   tpadeny:
-    description: 申請を拒否
-    usage: /tpadeny
+    description: テレポート申請を拒否するよ
   tpacancel:
-    description: 申請キャンセル
-    usage: /tpacancel
+    description: 送ったテレポート申請をキャンセルするよ
   tpauto:
-    description: 自動受け入れ切り替え
-    usage: /tpauto
+    description: テレポート申請の自動受け入れをON/OFFするよ
