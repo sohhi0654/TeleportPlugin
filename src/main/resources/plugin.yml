@@ -13,8 +13,11 @@ commands:
     description: ホーム削除
     usage: /delhome [名前]
   rtp:
-    description: ランダムテレポート
+    description: ランダムテレポート (GUI)
     usage: /rtp
+  pvp:
+    description: PvPのON/OFF切り替え
+    usage: /pvp
   tpa:
     description: TP申請
     usage: /tpa <プレイヤー名>
